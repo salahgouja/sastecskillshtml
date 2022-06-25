@@ -1,0 +1,265 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+    margin: 10px 80px;
+  }
+
+.menu_nav {
+    align-items: center;
+    padding: 25px;;
+    display: flex;
+    justify-content: space-between; 
+}
+.rectangle{   
+display: flex;
+justify-content: space-between;
+width: 1440px;
+height: 91px;
+left: 0px;
+top: 0px;
+background: rgba(133, 206, 237, 0.17);
+}
+.logo{
+    margin-top: -90px;
+    position: absolute;
+    width: 291px;
+    height: 291px;  
+    
+}
+  /* Sastec Skills */
+
+.title_logo{
+position: absolute;
+width: 99px;
+height: 24px;
+left: 663px;
+top: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #242424;
+}
+
+/* Line 2 */
+
+.line2{
+position: absolute;
+width: 64.01px;
+height: 0px;
+left: 663px;
+top: 65px;
+border: 2px solid #242424;
+}
+
+/* Blog */
+.Blog{
+position: absolute;
+width: 36px;
+height: 24px;
+left: 1294px;
+top: 36px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #242424;
+}
+
+/* How-to-create-a-training-team 1 */
+
+.training{
+position: absolute;
+width: 450px;
+height: 279px;
+left: 781px;
+top: 202px;
+
+background: url(How-to-create-a-training-team.jpg);
+
+}
+.p1{
+    /* Bootcamp full stack MERN */
+
+position: absolute;
+width: 584px;
+height: 291px;
+left: 106px;
+top: 159px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+
+color: #242424;
+}
+.p2{
+    /* 20 juin 2022 */
+position: absolute;
+width: 118px;
+height: 30px;
+left: 498px;
+top: 212px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: rgba(0, 0, 0, 0.37);
+}
+.p3{
+    /* sastecskills */
+position: absolute;
+width: 113px;
+height: 30px;
+left: 109px;
+top: 212px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.37);
+}
+.description1{
+position: absolute;
+width: 611px;
+height: 274px;
+left: 109px;
+top: 268px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+
+color: #242424;
+}
+
+.p11{
+    /* Bootcamp full stack MERN */
+position: absolute;
+width: 584px;
+height: 291px;
+left: 762px;
+top: 540px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+
+color: #242424;
+}
+.p21{
+    /* 20 juin 2022 */
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 1154px;
+    top: 592px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.37);
+}
+.p31{
+   /* sastecskills */
+position: absolute;
+width: 113px;
+height: 30px;
+left: 762px;
+top: 592px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.37);
+}
+
+.description2{
+
+    position: absolute;
+    width: 568px;
+    height: 274px;
+    left: 757px;
+    top: 643px;   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    
+    color: #242424;
+    
+}
+.img2{
+position: absolute;
+width: 536px;
+height: 284px;
+left: 127px;
+top: 572px;
+margin-top: 55px;
+}
+
+.footer{
+position: absolute;
+width: 1440px;
+height: 91px;
+left: 0px;
+top: 1000px;
+
+}
+
+.salah{
+    display: none;
+}
+.point{
+    
+    width: 20px;
+    height: 3px;
+    background-color: black;
+}
+
+@media screen and (max-width: 640px){
+    body{
+      margin: 10px 20px;
+    }
+    .menu_nav{
+        display: none;
+      }
+      .salah{
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          gap: 5px;
+     
+      }
+    .articles .article .right img{
+      height: 50%;
+      width:50%;
+    }
+    .articles .article .left{
+      margin: 0px;
+      max-width: 50%;
+    }
+  
+  }
